@@ -1,4 +1,4 @@
-# Luke Misinfo App (test)
+# CME Misinfo App
 
 - Project started from: [Integrating Firebase authentication into an Expo mobile app Logrocket Tutorial](https://blog.logrocket.com/integrating-firebase-authentication-expo-mobile-app/)
 
