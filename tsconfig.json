@@ -1,6 +1,10 @@
 {
+  // Extend the base TypeScript configuration provided by Expo
   "extends": "expo/tsconfig.base",
+
+  // Compiler options for TypeScript
   "compilerOptions": {
+    // Enable strict TypeScript checks (e.g., strict type checking, noImplicitAny, etc.)
     "strict": true
   }
 }
