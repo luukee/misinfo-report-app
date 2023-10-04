@@ -1,0 +1,10 @@
+{
+	"displayName": "Misinformation",
+	"name": "Misinformation",
+	"android": {
+		"package": "com.misinformation.reportapp"
+	},
+	"ios": {
+		"bundleIdentifier": "com.misinformation.reportapp"
+	}
+}

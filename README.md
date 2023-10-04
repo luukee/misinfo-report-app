@@ -2,6 +2,7 @@
 
 - Project started from: [Integrating Firebase authentication into an Expo mobile app Logrocket Tutorial](https://blog.logrocket.com/integrating-firebase-authentication-expo-mobile-app/)
 
+	- At the root `.env` file includes the Firebase SDK setup code.
 ## Troubleshoot build errors and crashes
 - [_Troubleshooting link_](https://docs.expo.dev/build-reference/troubleshooting/)
 
