@@ -1,10 +1,12 @@
 # Misinfo Report App
 
-- Project started from: [Integrating Firebase authentication into an Expo mobile app Logrocket Tutorial](https://blog.logrocket.com/integrating-firebase-authentication-expo-mobile-app/)
+## Links
+- _Project started from_: [Integrating Firebase authentication](https://blog.logrocket.com/integrating-firebase-authentication-expo-mobile-app/) into an Expo mobile app Logrocket Tutorial
 
 - [Search React Native Directory](https://reactnative.directory/?search=firebase&expo=true) for packages
 
-	- At the root `.env` file includes the Firebase SDK setup code.
+- [Expo Dev Forum](https://forums.expo.dev/)
+
 ## Troubleshoot build errors and crashes
 - [_Troubleshooting link_](https://docs.expo.dev/build-reference/troubleshooting/)
 
@@ -30,16 +32,23 @@ npx expo run:ios --configuration Release
 5. You can alternatively run a local build with `eas build --local` — this command will run a series of steps that is as close as it can be to what runs remotely on the hosted EAS Build service. It will copy your project to a temporary directory and make any necessary changes there. [Learn how to set this up and use it for debugging](https://docs.expo.dev/build-reference/local-builds/#using-local-builds-for-debugging).
 
 ## Command reference
+Start the development server for your project:
+
+```
+npx expo start
+```
+
+Start your Expo project with production-like settings:
 
 ```
 npx expo start --no-dev --minify
 ```
 
-When you run this command you are starting the Expo development server with the following characteristics:
+_When you run this command you are starting the Expo development server with the following characteristics:_
 
-It runs in "no-dev" mode, potentially skipping some development-specific checks and optimizations.
-It minifies the JavaScript code for production use, reducing its size and improving performance.
-This command is useful when you want to start your Expo project with production-like settings for testing or building your app for deployment to a production environment.
+_It runs in "no-dev" mode, potentially skipping some development-specific checks and optimizations. It minifies the JavaScript code for production use, reducing its size and improving performance._
+
+_This command is useful when you want to start your Expo project with production-like settings for testing or building your app for deployment to a production environment._
 
 ## File structure
 
@@ -76,6 +85,8 @@ This command is useful when you want to start your Expo project with production-
 		In summary, this index.tsx file serves as the entry point for your app's navigation logic, where it checks the user's authentication status using the useAuthentication hook and renders the appropriate navigation stack based on whether the user is authenticated or not.
 
 ## Firebase
+
+- At the root `.env` file includes the Firebase SDK setup code.
 
 - [Emulators](https://firebase.google.com/docs/emulator-suite/connect_and_prototype?authuser=0&hl=en)
 
