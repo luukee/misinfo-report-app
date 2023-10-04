@@ -5,10 +5,10 @@ import 'dotenv/config';
 export default {
   "expo": {
     // The name of your Expo app
-    "name": "expo-with-firebase-auth-demo",
+    "name": "misinfoReportApp",
 
     // The slug is used for URLs and filenames
-    "slug": "expo-with-firebase-auth-demo",
+    "slug": "misinfo-report-app",
 
     // The version of your app
     "version": "1.0.0",

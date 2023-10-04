@@ -1,6 +1,6 @@
 {
-	"displayName": "Misinformation",
-	"name": "Misinformation",
+	"displayName": "Misinfo Report App",
+	"name": "misinfoReportApp",
 	"android": {
 		"package": "com.misinformation.reportapp"
 	},
