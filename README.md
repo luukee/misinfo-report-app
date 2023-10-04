@@ -72,3 +72,34 @@ This command is useful when you want to start your Expo project with production-
 	- `index.tsx`
 	
 		In summary, this index.tsx file serves as the entry point for your app's navigation logic, where it checks the user's authentication status using the useAuthentication hook and renders the appropriate navigation stack based on whether the user is authenticated or not.
+
+## Firebase
+
+- [Emulators](https://firebase.google.com/docs/emulator-suite/connect_and_prototype?authuser=0&hl=en)
+
+- Commands
+
+	Install [Firebase CLI](https://firebase.google.com/docs/cli?authuser=0#test-locally)
+	```
+	curl -sL https://firebase.tools | bash
+	```
+	
+	Login to Firebase from terminal
+	```
+	firebase login    
+	```
+	
+	List Firebase projects:
+	```
+	firebase projects:list
+	```
+	
+	Firebase init
+	```
+	 firebase init
+	```
+	
+	If installed emulators you can start them with this command:
+	```
+	firebase emulators:start
+	```
