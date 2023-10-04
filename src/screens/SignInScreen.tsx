@@ -71,9 +71,8 @@ const SignInScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 20,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    paddingTop: 40,
+    backgroundColor: '#000',
     justifyContent: 'center',
   },
 

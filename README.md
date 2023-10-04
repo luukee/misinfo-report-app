@@ -2,6 +2,8 @@
 
 - Project started from: [Integrating Firebase authentication into an Expo mobile app Logrocket Tutorial](https://blog.logrocket.com/integrating-firebase-authentication-expo-mobile-app/)
 
+- [Search React Native Directory](https://reactnative.directory/?search=firebase&expo=true) for packages
+
 	- At the root `.env` file includes the Firebase SDK setup code.
 ## Troubleshoot build errors and crashes
 - [_Troubleshooting link_](https://docs.expo.dev/build-reference/troubleshooting/)
